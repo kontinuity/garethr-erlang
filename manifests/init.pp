@@ -40,6 +40,4 @@ class erlang (
     default : {
     }
   }
-
-  package { $package_name: ensure => $version, }
 }
